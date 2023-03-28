@@ -56,10 +56,10 @@ const wait = async (time) => {
 
 const returnHTML = function(player) {
     return `<div class="winner">
-                <img class="sub-img" src="trofeo.6304af0f.png">
+                <img class="sub-img" src="trofeo.31cc5e33.png">
                 <p class="sub-text">The winner is Player ${player}!</p>
             </div>`;
-}
+};
 
 const showWinner = async function(winner) {
     const win = winner.textContent === 'X' ? 1 : 2;
